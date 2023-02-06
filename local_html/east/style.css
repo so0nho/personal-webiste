@@ -29,6 +29,37 @@ header {
 
 .navbar a {
     color: #f4f1de;
+    padding: 16px 8px;body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4f1de;
+    background-color: #84a98c;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #52796f;    
+    
+}
+
+.navbar {
+    padding: 16px 16px 16px 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    color: #f4f1de;
     padding: 16px 8px;
 }
 
@@ -44,3 +75,22 @@ h1 {
 .cat-gif {
     height: 100px;
 }
+
+/*Styles for east one and two*/
+.body-east {
+    background-color: #200F8C;
+}
+
+.main-east {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F29F05;
+    color: black;
+}
+
+.img-east {
+    height: 300px;
+    padding: 8px 0 0 40px;
+}
+
