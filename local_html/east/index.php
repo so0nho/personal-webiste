@@ -8,12 +8,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="./index.php" class="nav-home">Home</a>
-        <a href="../west/index.php">West Index Page</a>
-        <a href="./one.php">Page one</a>
-        <a href="./two.php">Page two</a>
-    </nav>
-    <h1>Welcome to Soon Ho's Personal Website</h1>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="./index.php">Home</a></li>
+                <li><a href="../west/index.php">West Index Page</a></li>
+                <li><a href="./one.php">Page one</a></li>
+                <li><a href="./two.php">Page two</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="../nyan-cat.gif" alt="Nyan cat gif" class="cat-gif">
+    <h1>Welcome to my Personal Website</h1>
 </body>
 </html>
