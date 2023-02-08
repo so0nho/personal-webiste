@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>East One</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body class="body-east">
     <header>
         <nav>
             <ul class="navbar">
                 <li><a href="./index.php">Home</a></li>
-                <li><a href="../west/index.php">West Index Page</a></li>
-                <li><a href="./one.php">Page one</a></li>
-                <li><a href="./two.php">Page two</a></li>
+                <li><a href="../west/index.php">West</a></li>
+                <li><a href="./one.php">East One</a></li>
+                <li><a href="./two.php">East Two</a></li>
             </ul>
         </nav>
     </header>
     <main class="main-east">
-        <h1>Page One East</h1>
+        <h1>East One</h1>
         <img src="../images/csu.jpeg" alt="Picture of CSU" class="img-east">
         <blockquote cite="https://en.wikipedia.org/wiki/East">
         <p>East is the direction toward which the Earth rotates about its axis, and 
