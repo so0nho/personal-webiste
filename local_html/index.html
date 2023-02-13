@@ -1,32 +1,45 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" author="Soon Ho Kwon" description="Personal website">
-    <title>Soon Ho's Personal Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soon Ho's Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
+
 <body>
-    <nav style="background-color: lightgray; height: 40px; padding-top: 20px">
-        <a href="./index.html">Home</a>  |
-        <a href="https://compsci.colostate.edu/">CS Homepage</a>  |    
-        <a href="https://www.alltrails.com/explore?b_tl_
-        lat=40.68045440520175&b_tl_lng=-105.23449207303618&b_
-        br_lat=40.482545594798246&b_br_lng=-104.97390792696385">
-        Hiking Trails near Fort Collins</a> 
-    </nav>
-    <h1>Personal Website of Soon Ho Kwon</h1>
-    <img src="./images/csu_img.jpeg" alt="Picture of Colorado State University" height="350px">
-    <p>Hello! My name is Soon Ho Kwon, I am a senior majoring in Biology.</p>
-    <p>My hobbies are:</p>
-    <ul>
-        <li>Hiking</li>
-        <li>Playing games</li>
-        <li>Playing sports</li>
-    </ul>
-    <p>I am taking this class because I wanted to learn how to make websites and I
-        think that it will be a good skill to have.
-    </p>
-    <footer style="background-color: lightgray; height: 40px;">
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./east/index.html">East</a></li>
+                <li><a href="./west/index.html">West</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <img src="./images/nyan-cat.gif" alt="Nyan cat gif" class="cat-gif">
+
+    <h1>Welcome to My <br>Personal Website</h1>
+
+    <section class="about">
+        <p>My name is Soon Ho Kwon, I am a senior majoring in Biology.</p>
+    </section>
+    
+    <main>
+        <p>My hobbies are:</p>
+        <ul>
+            <li>Hiking</li>
+            <li>Playing games</li>
+            <li>Playing sports</li>
+        </ul>
+        <p>I am taking this class because I wanted to learn how to make websites and I
+            think that it will be a good skill to have.
+        </p>
+    </main>
+
+    <footer>
         <p>Created for CS312 Personal Website Lab</p>
     </footer>
 </body>
