@@ -1,28 +1,32 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #f4f1de;
-    background-color: #84a98c;
+    color: #f1efdf;
+    background-color: #141259;
     margin: 0;
     padding: 0;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
 }
 
+h1 {
+    margin: 8px 20px 0;
+}
+
 main {
-    margin-left: 8px;
-    font-weight: bold;
+    margin-left: 20px;
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: #52796f;     
+    background-color: #F29F05;     
 }
 
 footer {
-    background-color: #52796f;
+    background-color: #F29F05;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -30,7 +34,7 @@ footer {
 }
 
 .navbar {
-    padding: 16px 16px 16px 0;
+    padding: 16px;
     margin: 0;
     list-style-type: none;
 }
@@ -40,38 +44,40 @@ footer {
 }
 
 .navbar a {
-    color: #f4f1de;
+    color: #f1efdf;
     padding: 16px 8px;
 }
 
 .navbar a:hover {
-    background-color: #354f52;
+    color: #abc8fc;
     transition-delay: 50ms;
-}
-
-h1 {
-    margin: 0 8px;
 }
 
 .cat-gif {
     height: 100px;
+    width: 300px;
+    float: right;
+    margin: 40px 100px 0 0 ;
 }
 
 /*Styles for east one and two*/
-.body-east {
-    background-color: #200F8C;
-}
-
 .main-east {
     width: 800px;
+    color: #f1efdf;
     margin-left: auto;
     margin-right: auto;
     background-color: #F29F05;
-    color: black;
 }
 
-.img-east {
-    padding: 8px 0 0 40px;
+.main-east h1 {
+    margin: 40px 0 0 40px;
+}
+
+.body-east {
+    background-color: #141259;
+}
+
+.main-east img {
     width: 500px;
+    padding: 8px 0 0 40px;
 }
-
