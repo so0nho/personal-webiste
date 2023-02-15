@@ -11,7 +11,8 @@
     <header>
         <nav>
             <ul class="navbar">
-                <li><a href="./index.php">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./index.php">East Home</a></li>
                 <li><a href="../west/index.php">West</a></li>
                 <li><a href="./one.php">East One</a></li>
                 <li><a href="./two.php">East Two</a></li>
@@ -19,8 +20,8 @@
         </nav>
     </header>
     <main class="main-east">
-        <h1>East One</h1>
-        <img src="../images/east.jpg" alt="Picture of the East" class="img-east">
+        <h1 class="banner-east">East One</h1>
+        <img src="../images/csu.jpeg" alt="Picture of CSU" class="img-east">
         <blockquote cite="https://en.wikipedia.org/wiki/East">
         <p>East is the direction toward which the Earth rotates about its axis, and 
         therefore the general direction from which the Sun appears to rise. The 
