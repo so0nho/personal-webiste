@@ -13,9 +13,10 @@
         <nav>
             <ul class="navbar">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../west/index.html">West</a></li>
-                <li><a href="./one.html">East One</a></li>
-                <li><a href="./two.html">East Two</a></li>
+                <li><a href="./index.php">East Home</a></li>
+                <li><a href="../west/index.php">West</a></li>
+                <li><a href="./one.php">East One</a></li>
+                <li><a href="./two.php">East Two</a></li>
             </ul>
         </nav>
     </header>
@@ -24,14 +25,14 @@
 
     <h1>Welcome to the East Side of My Personal Website</h1>
 
-    <h2 class="about-banner">About Me</h2>
+    <h2 class="banner">About Me</h2>
     <section class="about">
         <p>My name is Soon Ho Kwon, I am a senior majoring in Biology. <br>I am taking this class because 
             I wanted to learn how to make websites and I think that it will be a good skill to have.
         </p>
     </section>
     
-    <h2 class="hobbies-banner">My Hobbies</h2>
+    <h2 class="banner">My Hobbies</h2>
     <section class="hobbies">
         <p>My hobbies are:</p>
         <ul>
