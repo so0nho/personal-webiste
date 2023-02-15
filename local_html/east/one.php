@@ -20,7 +20,7 @@
     </header>
     <main class="main-east">
         <h1>East One</h1>
-        <img src="../images/csu.jpeg" alt="Picture of CSU" class="img-east">
+        <img src="../images/east.jpg" alt="Picture of the East" class="img-east">
         <blockquote cite="https://en.wikipedia.org/wiki/East">
         <p>East is the direction toward which the Earth rotates about its axis, and 
         therefore the general direction from which the Sun appears to rise. The 
