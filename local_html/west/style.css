@@ -27,7 +27,7 @@ p {
     margin-right: 20px;
 }
 
-.about-banner, .hobbies-banner {
+.banner {
     font-size: 30px;
     padding: 4px;
     margin: 30px 0 0 60px;
@@ -36,7 +36,7 @@ p {
 }
 
 .about {
-    background-color: #9487A1;
+    background-color: #94A187;
     height: 60px;
     padding: 20px 0 30px;
     margin-top: -20px;
@@ -44,15 +44,22 @@ p {
 
 
 .hobbies {
-    background-color: #9487A1;
+    background-color: #94A187;
     padding: 20px 0 10px;
     margin-top: -20px;
+}
+
+.left {
+    float: right;
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: #94A187;     
+    background-color: #94A187;
+    width: 10vw;
+    position: fixed;
+    height: 100vh;
 }
 
 footer {
@@ -60,10 +67,8 @@ footer {
     color: #f4f1de;
     position: fixed;
     bottom: 0;
-    width: 100%;
     text-align: center;
-    width: 90%;
-    min-width: 600px;
+    width: 100%;
 }
 
 .navbar {
@@ -73,7 +78,8 @@ footer {
 }
 
 .navbar li {
-    display: inline-block;
+    /*display: inline-block;*/
+    padding: 8px 0;
 }
 
 .navbar a {
@@ -83,7 +89,6 @@ footer {
 
 .navbar a:hover {
     color: #102542;
-    transition-delay: 50ms;
 }
 
 .cat-gif {
