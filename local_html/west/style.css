@@ -9,6 +9,10 @@ body {
     min-width: 600px;
 }
 
+.home-left {
+    margin-left: 20vw;
+}
+
 a {
     text-decoration: none;
 }
@@ -37,6 +41,7 @@ p {
 
 .about {
     background-color: #94A187;
+    color: #F7F7F2;
     height: 60px;
     padding: 20px 0 30px;
     margin-top: -20px;
@@ -45,12 +50,9 @@ p {
 
 .hobbies {
     background-color: #94A187;
+    color: #F7F7F2;
     padding: 20px 0 10px;
     margin-top: -20px;
-}
-
-.left {
-    float: right;
 }
 
 header {
@@ -97,4 +99,15 @@ footer {
     float: right;
     margin: 40px 100px 0 0;
     transform: scaleX(-1);
+}
+
+.main-west {
+    background-color: #94A187;
+    color: #F7F7F2;
+    margin-left: 20vw;
+}
+
+.img-west {
+    width: 500px;
+    padding: 8px 0 0 40px;
 }
