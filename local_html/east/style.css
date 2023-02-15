@@ -24,7 +24,7 @@ p {
     margin-right: 20px;
 }
 
-.about-banner, .hobbies-banner {
+.banner {
     font-size: 30px;
     padding: 4px;
     margin: 30px 0 0 60px;
@@ -99,6 +99,7 @@ footer {
 
 .main-east h1 {
     margin: 40px 0 0 40px;
+    background-color: #2703A6;
 }
 
 .body-east {
