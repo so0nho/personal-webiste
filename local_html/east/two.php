@@ -11,7 +11,8 @@
     <header>
         <nav>
             <ul class="navbar">
-                <li><a href="./index.php">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./index.php">East Home</a></li>
                 <li><a href="../west/index.php">West</a></li>
                 <li><a href="./one.php">East One</a></li>
                 <li><a href="./two.php">East Two</a></li>
